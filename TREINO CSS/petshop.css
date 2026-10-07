@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 44px 76px;
+    gap: 23px;
+
+}
+
+.link-menu {
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 108;
+    height: 29;
+    opacity: 1;
+    text-decoration: none;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.link-menu:hover {
+    text-decoration: underline;
+    text-decoration-color: #005BAC;
+}
+
+.button-login {
+    width: 130px;
+    height: 41px;
+    opacity: 1;
+    border-radius: 20.5px;
+    background: #665AE1;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    opacity: 1;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.button-login:hover {
+    text-decoration: underline;
+    text-decoration-color: #ADD8E6;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 217px 146px 0px 125px;
+    gap: 86px;
+}
+
+.text-content-wrapper {
+    align-self: flex-start;
+}
+
+h1 {
+
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 513px;
+    height: 122px;
+    opacity: 1;
+    color: #515151;
+    cursor: default;
+
+}
+
+h1:hover {
+    text-decoration: underline;
+    text-decoration-color: #005BAC;
+}
+
+h2 {
+
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 448px;
+    height: 71px;
+    opacity: 1;
+    color: #515151;
+    cursor: default;
+}
+
+h2:hover {
+    text-decoration: underline;
+    text-decoration-color: #005BAC;
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 0%;
+    width: 515px;
+    opacity: 1;
+    color: #848484;
+    cursor: default;
+    margin-top: 32px;
+    text-align: justify;
+
+}
+
+p:hover {
+    text-decoration: underline;
+    text-decoration-color: #005BAC;
+}
+
+.button-explore {
+
+    width: 239px;
+    height: 64px;
+    opacity: 1;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: 1px solid #ADFF00;
+    border-style: dashed;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 80px;
+    transition: color 0.3s ease;
+
+}
+
+.button-explore:hover {
+    text-decoration: underline;
+    text-decoration-color: #005BAC;
+
+}
+
+@media screen and (max-width: 1100px) {
+
+
+    header {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 24px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    main img {
+        max-width: 90%;
+        width: 354px;
+        height: 317px;
+        margin-top: 0;
+        margin-bottom: 20px;
+
+       }
+.text-content-wrapper {
+        align-self: center; 
+        width: 100%; 
+        max-width: 500px;
+
+}
+    main h1 {
+
+        font-size: 50px;
+        line-height: 1.2;
+        margin: 0 auto;
+        width: fit-content;
+
+
+    }
+
+    main h2 {
+
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    main p {
+        display: none;
+
+    }
+
+    .button-explore {
+       width: 239px;
+        height: 64px;
+        margin: 0 auto; 
+        margin-top: 10px;
+    }
+}
